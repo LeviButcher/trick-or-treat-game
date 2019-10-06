@@ -10,8 +10,7 @@
   "dependencies": {
     "react": "16.4.2",
     "react-dom": "16.4.2",
-    "react-scripts": "1.1.4",
-    "react-testing-library": "5.2.1"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,5 +18,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build && surge -p build/ -d https://trickortreat.surge.sh"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^9.3.0"
   }
 }
